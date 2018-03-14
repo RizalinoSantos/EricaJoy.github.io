@@ -1,0 +1,546 @@
+<html>
+
+<head>
+
+<title>JavaScriptKit.com Multiple Choice Quiz Script</title>
+
+<style>
+.qheader{
+font:bold 14px Arial;
+}
+
+center{border:2px solid black;margin:5%;font-align:center;padding-top:15px;background-color:#63adf2;font-size:20px;font-style:;}
+
+body{margin:0px;background-color:#69ffe8;}
+
+main{border:2px solid black;background-color:#64d1ff;
+margin:5%;padding:20px;}
+
+.qselections{
+font:normal 13px Arial;
+border:1px solid black;background-color:white;
+text-style:Arial black;
+}
+
+
+</style>
+
+<script src="quizconfig.js">
+</script>
+
+<script>
+
+/***********************************************
+* JavaScriptKit.com Multiple Choice Quiz Script (http://www.javascriptkit.com)
+* Copyright 2003 JavaScript Kit- http://www.javascriptkit.com
+* This notice and footnote must stay intact for use
+* Visit JavaScript Kit (http://www.javascriptkit.com/) for full source code
+***********************************************/
+
+var actualchoices=new Array()
+document.cookie="ready=yes"
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<!--Comments on configuring quiz script-->
+<!--Change the questions below any way you want, but make note of the following:-->
+<!--1) Perserve the <FORM> tags -->
+<!--2a) Inside each radio button, use the VALUE attribute to denote each question's choices: "a", "b", "c" etc.-->
+<!--2b) Inside each radio button, use the NAME attribute to denote which question the button belongs to ("question1", "question2" etc-->
+<!--3) Script supports unlmited # of questions. Be sure to edit .js file to enter corresponding solutions-->
+
+<p align="center">
+
+<form method="POST" name="myquiz">
+
+<center><font face="Arial"><big><big>General Knowledge Test</big></big></font></p></center>
+
+<div class="qheader">
+<main>
+1.	A stakeholder in curriculum development, Mr. Cruz, a district supervisor and a member of the school board has one of the following primary roles.<br>
+<div class="qselections">
+<input type="radio" value="a" name="question1">a.	Support and participate in parent-school organization activities.<br>
+<input type="radio" value="b" name="question1">b.	Authorize school expenditures for curriculum development, implementation and evaluation<br>
+<input type="radio" value="c" name="question1">c.		Enact legislation to effect curriculum improvement.<br>
+<input type="radio" value="d" name="question1">d.	Recommend changes in curriculum.<br>
+</div>
+
+<br>
+<div class="qheader">
+2.	The schools in the first District plan to adopt the reading program used in the third district. What level of curriculum improvement is used?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question2">a.	Variatio<br>
+<input type="radio" value="b" name="question2">b.	Value orientation<br>
+<input type="radio" value="c" name="question2">c.		Substitution<br>
+<input type="radio" value="d" name="question2">d.	Restructuring<br>
+</div>
+
+<br>
+<div class="qheader">
+3.	Mr. Bernardo, a curriculum consultant on Economics insists that in selecting the curriculum content, it is better that throughout the high school years, economic geography concepts be used to recur and be repeated with depth for effective learning. What criterion in content selection is shown here?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question3">a.	Validity<br>			
+<input type="radio" value="b" name="question3">b.	Significance<br>		
+<input type="radio" value="c" name="question3">c. 	Continuity<br>
+<input type="radio" value="d" name="question3">d. 	Learnability<br>
+</div>
+
+<br>
+<div class="qheader">
+4.	The Filipino learners envisioned by the Department of Education (DepEd) in the light of K-12 Curriculum is<br>
+<div class="qselections">
+<input type="radio" value="a" name="question4">a.	Technologically literate or logistically developed Filipino<br>
+<input type="radio" value="b" name="question4">b.	Functionally literate or logistically developed Filipino<br>
+<input type="radio" value="c" name="question4">c.		Scientifically Advanced and Values Oriented Filipino<br>
+<input type="radio" value="d" name="question4">d.	National Oriented and Internationally Competitive Filipinos<br>
+</div>
+
+<br>
+<div class="qheader">
+5.	Teacher Dominguito believes that a new respect for the child is fundamental in curriculum. Thus, all activities in the classroom are geared towards the development of the child - the center of the educative process. To which approach in curriculum does Teacher Dominguito adhere?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question5">a.	Learner-centered<br>
+<input type="radio" value="b" name="question5">b.	Subject-centered<br>
+<input type="radio" value="c" name="question5">c .	Problem-centered<br>
+<input type="radio" value="d" name="question5">d.	Pragmatic<br>
+</div>
+
+<br>
+<div class="qheader">
+6.	Mrs. Manuel, the Principal of Bagong Barrio Elementary School invited the Brgy. Captain in the school to solicit inputs for a new curriculum in Social Science which highlights indigenous knowledge in the community. What is shown in this situation?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question6">a.	Community members as supporters of curriculum<br>
+<input type="radio" value="b" name="question6">b.	Community members as curriculum resources<br>
+<input type="radio" value="c" name="question6">c.	 	Community members as managers of curriculum<br>
+<input type="radio" value="d" name="question6">d.	Community members as beneficiaries of curriculum<br>
+</div>
+
+<br>
+<div class="qheader">
+7.	Teacher Bert puts emphasis on the immediate felt interests and needs of his students and not on the anticipated needs and interests. What type of curriculum does teacher Bert adheres?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question7">a.	Subject-centered<br>
+<input type="radio" value="b" name="question7">b.	Experience-centered<br>	
+<input type="radio" value="c" name="question7">c.	 	Learner-centered<br>
+<input type="radio" value="d" name="question7">d. 	Culture-based<br>
+</div>
+
+<br>
+<div class="qheader">
+8.	What type of curriculum divides the school day into different periods such as language arts, social studies, science and health, arithmetic, etc.?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question8">a.	Correlated<br>			<input type="radio" value="c" name="question8">c. Broad fields<br>
+<input type="radio" value="b" name="question8">b.	Integrated<br>			<input type="radio" value="d" name="question8">d. Separate Subject<br>
+</div>
+
+<br>
+<div class="qheader">
+9.	Which curriculum design element is taking place when Eduardo, a 4th year student can connect the lessons he learned in a subject area to a related content in another subject area?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question9">a.	Articulation<br>		<input type="radio" value="c" name="question9">c. Balance<br>
+<input type="radio" value="b" name="question9">b.	Continuity<br>			<input type="radio" value="d" name="question9">d. Integration<br>
+</div>
+
+<br>
+<div class="qheader">
+10.	The following curricular changes took place in what particular period? Restore Grade VII, double-single session was abolished and more textbooks were written by Filipino authors.<br>
+<div class="qselections">
+<input type="radio" value="a" name="question10">a.	American Period<br>
+<input type="radio" value="b" name="question10">b.	Japanese Occupation<br>
+<input type="radio" value="c" name="question10">c. 	Philippine Republic<br>
+<input type="radio" value="d" name="question10">d.	New Society<br>
+</div>
+
+<br>
+<div class="qheader">
+11.	This concept includes the sub-processes of curriculum planning, organization, implementation and evaluation. Which concept is this?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question11">a.	Curriculum development<br>
+<input type="radio" value="b" name="question11">b.	Curriculum assessment<br>
+<input type="radio" value="c" name="question11">c.	Curriculum management<br>
+<input type="radio" value="d" name="question11">d.	Curriculum and instruction<br>
+</div>
+
+<br>
+<div class="qheader">
+12.	If curriculum is the "means", what is the "end"?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question12">a.	Strategies<br>		<input type="radio" value="c" name="question12">c. Instruction<br>
+<input type="radio" value="b" name="question12">b.	Technique<br>		<input type="radio" value="d" name="question12">d. Approaches<br>
+</div>
+
+<br>
+<div class="qheader">
+13.	The curriculum used during the period in Philippine history terminated the use of English as a medium of instruction. What period is this?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question13">a.	American<br>		<input type="radio" value="c" name="question13">c. Spanish<br>
+<input type="radio" value="b" name="question13">b.	Commonwealth<br>		<input type="radio" value="d" name="question13">d. Japanese<br>
+</div>
+
+<br>
+<div class="qheader">
+14.	Which of the following statements about the concept of curriculum is NOT quite acceptable?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question14">a.	It refers to all experiences that both the school and the teacher provide the students with.<br>
+<input type="radio" value="b" name="question14">b.	It is the set of acquired knowledge, habits and skills<br>
+<input type="radio" value="c" name="question14">c.	It consists of everything that goes within the school.<br>
+<input type="radio" value="d" name="question14">d.	It is a planned action for instruction<br>
+</div>
+
+<br>
+<div class="qheader">
+15.	What process is being undertaken by curriculum developers when they enrich or modify certain aspects of a particular program without changing its fundamental conceptions?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question15">a.	Curriculum improvement<br>
+<input type="radio" value="b" name="question15">b.	Curriculum change<br>
+<input type="radio" value="c" name="question15">c.	Curriculum design<br>
+<input type="radio" value="d" name="question15">d.	Curriculum implementation<br>
+</div>
+
+<br>
+<div class="qheader">
+16.	What design element establishes the vertical linkage from level to level to avoid glaring gaps and wasteful overlaps?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question16">a.	Articulation<br>		<input type="radio" value="c" name="question16">c. Balance<br>
+<input type="radio" value="b" name="question16">b.	Scope<br>			<input type="radio" value="d" name="question16">d. Sequence<br>
+</div>
+
+<br>
+<div class="qheader">
+17.	What refers to the authenticity of the content selected by the curriculum developer?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question17">a.	Feasibility<br>			<input type="radio" value="c" name="question17">c. Learnability<br>
+<input type="radio" value="b" name="question17">b.	Significance<br>			<input type="radio" value="d" name="question17">d. Validity<br>
+</div>
+
+<br>
+<div class="qheader">
+18.	What do we call the allocation of content to a definite grade capable of learning?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question18">a.	Time allotment<br>
+<input type="radio" value="b" name="question18">b.	Grade placement<br>
+<input type="radio" value="c" name="question18">c.	Grade level<br>
+<input type="radio" value="d" name="question18">d.	Maturity level<br>
+</div>
+
+<br>
+<div class="qheader">
+19.	Which pattern of experience-centered curriculum centers around the normal activities of children and is based on each child's needs, interests and potentials?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question19">a.	Child-centered<br>		
+<input type="radio" value="b" name="question19">b.	Activity<br>
+<input type="radio" value="c" name="question19">c.	Social function<br>		
+<input type="radio" value="d" name="question19">d.	Specific competencies<br>
+</div>
+
+<br>
+<div class="qheader">
+20.	Which curriculum development phase focuses on the change which will take place in certain aspects of the curriculum without changing the fundamental conceptions?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question20">a.	Curriculum planning<br>
+<input type="radio" value="b" name="question20">b.	Curriculum design<br>
+<input type="radio" value="c" name="question20">c.	Curriculum improvement<br>
+<input type="radio" value="d" name="question20">d.	Curriculum evaluation<br>
+</div>
+
+<br>
+<div class="qheader">
+21.	Which is not a component of curriculum designing?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question21">a.	Objective<br>
+<input type="radio" value="b" name="question21">b.	learning content<br>
+<input type="radio" value="c" name="question21">c.	learning experiences<br>
+<input type="radio" value="d" name="question21">d.	Diagnosis of needs<br>
+</div>
+
+<br>
+<div class="qheader">
+22.	Which type of curriculum design serves as a response to society's demand for integration of knowledge and enables the learner to see relationship among various aspects?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question22">a.	Broadfield<br>		<input type="radio" value="c" name="question22">c. Correlated<br>
+<input type="radio" value="b" name="question22">b.	Core<br>			<input type="radio" value="d" name="question22">d. Separate subjects<br>
+</div>
+
+<br>
+<div class="qheader">
+23.	Who controls the subject centered-curriculum?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question23">a.	Learner<br>		<input type="radio" value="c" name="question23">c. Teacher<br>
+<input type="radio" value="b" name="question23">b.	Parent<br>		<input type="radio" value="d" name="question23">d. Teacher and parent<br>
+</div>
+
+<br>
+<div class="qheader">
+24.	To provide individual differences in the classroom, how is curriculum designed?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question24">a.	Minimum learning competencies are included<br>
+<input type="radio" value="b" name="question24">b.	Realistic and meaningful experiences are provided<br>
+<input type="radio" value="c" name="question24">c.	Some degree of flexibility is provided<br>
+<input type="radio" value="d" name="question24">d.	Social skills are emphasized<br>
+</div>
+
+<br>
+<div class="qheader">
+25.	To ensure success in curriculum development, which of the following specific actions should a curriculum leader avoid?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question25">a.	Work with people over them.<br>
+<input type="radio" value="b" name="question25">b.	Use your status frequently to establish discipline<br>
+<input type="radio" value="c" name="question25">c.	Keep channels of communication open<br>
+<input type="radio" value="d" name="question25">d.	Show that you too desire to improve<br>
+</div>
+
+<br>
+<div class="qheader">
+26.	Which of the following is a reason for the continuous appraisal of the existing curriculum in all levels?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question26">a.	New national policies in government<br>
+<input type="radio" value="b" name="question26">b.	Changing needs and condition of society<br>
+<input type="radio" value="c" name="question26">c.	Economic status of the people<br>
+<input type="radio" value="d" name="question26">d.	Political trust of the country<br>
+</div>
+
+<br>
+<div class="qheader">
+27.	Which of the following best defines curriculum development?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question27">a.	The total mental phenomena directly received at any given time<br>
+<input type="radio" value="b" name="question27">b.	The planning of learning opportunities intended to bring about certain desired changes in pupils and the assessment of the extent to which these changes have taken place.<br>
+<input type="radio" value="c" name="question27">c.	A continuous cycle of activities in which all elements of curriculum are considered.<br>
+<input type="radio" value="d" name="question27">d.	Education is aiding each child to be socially creative individuals.<br>
+</div>
+
+<br>
+<div class="qheader">
+28.	To build a sense of pride among Filipino youth, which should be done in the curriculum?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question28">a.	Re-study our history and stress on our achievements as a people.<br>
+<input type="radio" value="b" name="question28">b.	Re-study our history from the perspective of our colonizer.<br>
+<input type="radio" value="c" name="question28">c.	Replace the study of folklore and myths with technical subjects.<br>
+<input type="radio" value="d" name="question28">d.	Set aside the study of local history.<br>
+</div>
+
+<br>
+<div class="qheader">
+29.	What do you call the curriculum when the teacher puts into action all the different planned activities in the classroom?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question29">a.	Recommended Curriculum<br>
+<input type="radio" value="b" name="question29">b.	Written Curriculum<br>
+<input type="radio" value="c" name="question29">c.	Taught Curriculum<br>
+<input type="radio" value="d" name="question29">d.	Supported Curriculum<br>
+</div>
+
+<br>
+<div class="qheader">
+30.	Which statement about the subject-centered curriculum is NOT true?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question30">a.	There is a high level of cooperative interaction<br>
+<input type="radio" value="b" name="question30">b.	 It covers much content in a short period of time<br>
+<input type="radio" value="c" name="question30">c.	The teacher has full control of the classroom activities<br>
+<input type="radio" value="d" name="question30">d.	The main task is mastery of learning<br>
+</div>
+
+<br>
+<div class="qheader">
+31.	Schools divide the school hours to different subjects such as reading, grammar, literature, math, science, history and geography. What curriculum design is referred here?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question31">a.	Problem-centered<br>		<input type="radio" value="c" name="question31">c. Learner-centered<br>
+<input type="radio" value="b" name="question31">b.	Subject-centered<br>		<input type="radio" value="d" name="question31">d. Culture-based<br>
+</div>
+
+<br>
+<div class="qheader">
+32.	Which is NOT a description of the learner-centered curriculum?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question32">a.	Emphasis is on the total growth and development of the learners<br>
+<input type="radio" value="b" name="question32">b.	Controlled and cooperatively directed by learners, teachers and parents<br>
+<input type="radio" value="c" name="question32">c.	Education is a means to develop social creative individual<br>
+<input type="radio" value="d" name="question32">d.	Emphasis upon facts and knowledge for future use<br>
+</div>
+
+<br>
+<div class="qheader">
+33.	The K-12 curriculum is otherwise called as<br>
+<div class="qselections">
+<input type="radio" value="a" name="question33">a.	2002 Basic Education Curriculum<br>
+<input type="radio" value="b" name="question33">b.	Revitalized Basic Education Curriculum<br>
+<input type="radio" value="c" name="question33">c.	Enhanced Basic Education Curriculum<br>
+<input type="radio" value="d" name="question33">d.	Extended Basic Education Curriculum<br>
+</div>
+
+<br>
+<div class="qheader">
+34.	What refers to an individual or group of individuals who have a direct and indirect influence in curriculum development?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question34">a.	Stockholders<br>		<input type="radio" value="c" name="question34">c. Stakeholders<br>
+<input type="radio" value="b" name="question34">b.	Promoters<br>			<input type="radio" value="d" name="question34">d. Incorporators<br>
+</div>
+
+<br>
+<div class="qheader">
+35.	What refers to the appropriateness of the content in the light of the particular students who are to experience the curriculum?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question35">a.	Significance<br>		<input type="radio" value="c" name="question35">c. Validity<br>
+<input type="radio" value="b" name="question35">b.	Interest<br>			<input type="radio" value="d" name="question35">d. Learnability<br>
+</div>
+
+<br>
+<div class="qheader">
+36.	Which of the following statements is NOT acceptable?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question36">a.	Instruction is the actual engagement of learners in the planned learning activities.<br>
+<input type="radio" value="b" name="question36">b.	Curriculum determines what assessment should be done, and how to do it.<br>
+<input type="radio" value="c" name="question36">c.	Instruction requires teachers to use a variety of action to accomplish a variety of functions.<br>
+<input type="radio" value="d" name="question36">d.	Assessment establishes what is to be accomplished in teaching and learning.<br>
+</div>
+
+<br>
+<div class="qheader">
+37.	Which characteristic of a good curriculum highlights the psychological nature of the learner?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question37">a.	Provisions are made for the smooth transition and continuing achievement of pupils.<br>
+<input type="radio" value="b" name="question37">b.	Curriculum plans in areas which extend over several years are developed vertically.<br>
+<input type="radio" value="c" name="question37">c.	Classroom practices give attention to the maturity and learning problems of each pupil.<br>
+<input type="radio" value="d" name="question37">d.	Cooperative planning and teaching provide for exchange of information about pupil's learning experiences.<br>
+</div>
+
+<br>
+<div class="qheader">
+38.	Objectives must be evaluated in the light of practical considerations, including teacher competence, availability of instructional materials, time allotment, etc. What characteristic of educational objective is defined by the aforementioned statement?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question38">a.	Comprehension<br>		<input type="radio" value="c" name="question38">c.  Attainability<br>
+<input type="radio" value="b" name="question38">b.	Consistency<br>		<input type="radio" value="d" name="question38">d. Feasibility<br>
+</div>
+
+<br>
+<div class="qheader">
+39.	"Knowledge is true if it is workable". What philosophical foundation supports this statement?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question39">a.	Idealism<br>			<input type="radio" value="c" name="question39">c. Realism<br>
+<input type="radio" value="b" name="question39">b.	Pragmatism	<br>	<input type="radio" value="d" name="question39">d. Essentialism<br>
+</div>
+
+<br>
+<div class="qheader">
+40.	As a member of the curriculum committee, your chief concern is to give the child freedom to choose what to learn and believe, as you allow them to set their own identities and standards. What philosophy will you consider?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question40">a.	Existentialism<br>	<input type="radio" value="a" name="question40">c. Realism<br>
+<input type="radio" value="a" name="question40">b.	Idealism	<br>		<input type="radio" value="a" name="question40">d. Pragmatism<br>
+</div>
+
+<br>
+<div class="qheader">
+41.	Which of the following statements has a very limited definition of educational technology?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question41">a.	It is a profession composed of various job categories.<br>
+<input type="radio" value="a" name="question41">b.	It refers to the computers used for teaching and learning.<br>
+<input type="radio" value="a" name="question41">c.	It includes audiovisual materials, interactive multimedia and self-instructional materials.<br>
+<input type="radio" value="a" name="question41">d.	It is the development, application and evaluation of system, techniques and aids to improve human learning<br>
+</div>
+
+<br>
+<div class="qheader">
+42.	Which of the following statements is correct about the domains of educational technology?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question42">a.	Design is the production stage while development is the planning stage.<br>
+<input type="radio" value="a" name="question42">b.	Both the design and development are the planning stage.<br>
+<input type="radio" value="a" name="question42">c.	Evaluation is synonymous with implementation.<br>
+<input type="radio" value="a" name="question42">d.	Utilization is the action phase.<br>
+</div>
+
+<br>
+<div class="qheader">
+43.	Ms. Gomez is planning to integrate technology in her Mathematics class. Which of the following would be the logical steps in doing this?<br>
+I. Set the objectives<br>
+II. Analyze the learners<br>
+III. Utilize the materials with showmanship<br>
+IV. Evaluate the performance of the students<br>
+	<div class="qselections">
+	<input type="radio" value="a" name="question43">a. I, II, III, IV	<br>	<input type="radio" value="a" name="question43">c. II, I, III, IV<br>
+	<input type="radio" value="a" name="question43">b.  I, II, IV, III<br>		<input type="radio" value="a" name="question43">d. II, I, IV, III<br>
+</div>
+
+<br>
+<div class="qheader">
+44.	Which of the following is a limitation of models and real objects in teaching and learning?<br>
+<div class="qselections">
+
+<input type="radio" value="a" name="question44">a.	They pose problems on storage<br>
+<input type="radio" value="a" name="question44">b.	They make learning more concrete.<br>
+<input type="radio" value="a" name="question44">c.	They provide hands-on learning experiences.<br>
+<input type="radio" value="a" name="question44">d.	They are readily available in the environment, around school and in the home.<br>
+</div>
+
+<br>
+<div class="qheader">
+45.	Which group of technologies has the highest degree of concreteness?<br>
+<div class="qselections">
+
+<input type="radio" value="a" name="question45">a.	Realia and computer<br>
+<input type="radio" value="a" name="question45">b.	Video, picture and television<br>
+<input type="radio" value="a" name="question45">c.	Digital video, film, versatile compact disc<br>
+<input type="radio" value="a" name="question45">d.	Book, imaginative literature, programmed instruction<br>
+</div>
+
+<br>
+<div class="qheader">
+46.	Mrs. Del Prado placed text together with the relevant graphics on the same page in her multimedia presentation. Which principle did she apply?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question46">a.	Split attention<br>
+<input type="radio" value="a" name="question46">b.	Spatial contiguity<br>
+<input type="radio" value="a" name="question46">c.	Cost effectiveness<br>
+<input type="radio" value="a" name="question46">d.	Communication effectiveness<br>
+</div>
+
+<br>
+<div class="qheader">
+47.	Mrs. Olivarez presented real samples of rocks in her General Science class. What principle did she apply?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question47">a.	Appropriateness<br>		<input type="radio" value="a" name="question47">c. Authenticity<br>
+<input type="radio" value="a" name="question47">b.	Responsiveness<br>		<input type="radio" value="a" name="question47">d. Simplicity<br>
+</div>
+
+<br>
+<div class="qheader">
+48.	Which is the best reason why teachers state the objectives before using instructional media?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question48">a.	To secure materials<br>
+<input type="radio" value="a" name="question48">b.	To prepare the materials beforehand.<br>
+<input type="radio" value="a" name="question48">c.	To determine which media to use best.<br>
+<input type="radio" value="a" name="question48">d.	To be able to practice how to operate the equipment<br>
+</div>
+
+<br>
+<div class="qheader">
+49.	Which of the following should Mr. Rivera primarily consider in determining the teaching-learning objectives and use of instructional media?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question49">a.	The assessment tool to be used<br>
+<input type="radio" value="a" name="question49">b.	The learning activities<br>
+<input type="radio" value="a" name="question49">c.	The learner<br>
+<input type="radio" value="a" name="question49">d.	The teacher<br>
+</div>
+
+<br>
+<div class="qheader">
+50.	Which of the following technologies provide iconic experiences to students/children?<br>
+<div class="qselections">
+<input type="radio" value="a" name="question50">b.	Pictures and videos<br>
+<input type="radio" value="a" name="question50">c.	Radio and recording<br>
+<input type="radio" value="a" name="question50">d.	Modules and periodicals<br>
+</main>
+</form>
+
+
+
+<form>
+<div align="center">
+<input type="button" value="Grade Me!" name="B1" onClick="gradeit()"> <input type="button" value="Reset" name="B2" onClick="document.myquiz.reset()"></div>
+</form>
+
+<p id="footnote" align="center"><font face="arial" size="-1">Quiz script provided by<br>
+<a href="http://www.javascriptkit.com">JavaScriptKit.com</a></font></p>
+</body>
+</html>
+
